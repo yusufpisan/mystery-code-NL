@@ -8,7 +8,7 @@ typedef struct Node {
 } Node;
 
 void print(Node* curr) {
-  while (curr != NULL) {
+  while (curr != nullptr) {
     cout << curr->data << " ";
     curr = curr->next;
   }
